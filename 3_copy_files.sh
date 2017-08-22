@@ -20,3 +20,7 @@ cp SPIRV-Tools-Darwin-x64-Release/bin/* bin/Mac/
 cp SPIRV-Tools-Linux-x64-Release/bin/* bin/Linux/
 cp SPIRV-Tools-MSVC2015-x64-Release/bin/* bin/Windows/
 
+cp ninja-mac/* bin/Mac/
+cp ninja-linux/* bin/Linux/
+cp ninja-win/* bin/Windows/
+

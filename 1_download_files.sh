@@ -56,5 +56,21 @@ curl \
   -o SPIRV-Tools-MSVC2015-x64-Release.zip \
   https://github.com/paulthomson/build-SPIRV-Tools/releases/download/v-daf0781fe3e73771ef7ba2238967e42313c3a1db/MSVC2015-x64-Release.zip
 
+# Ninja
+
+curl \
+  -fsSL \
+  -o ninja-mac.zip \
+  https://github.com/ninja-build/ninja/releases/download/v1.7.2/ninja-mac.zip
+
+curl \
+  -fsSL \
+  -o ninja-linux.zip \
+  https://github.com/ninja-build/ninja/releases/download/v1.7.2/ninja-linux.zip
+
+curl \
+  -fsSL \
+  -o ninja-win.zip \
+  https://github.com/ninja-build/ninja/releases/download/v1.7.2/ninja-win.zip
 
 
